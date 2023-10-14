@@ -12,6 +12,7 @@ function Login() {
 
   function SignIn(e) {
     e.preventDefault();
+    console.log('signin');
 
     // Your sign-in logic
 
