@@ -5,8 +5,14 @@ import { Checkout } from './checkout';
 import { Home } from './home';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Login from './Login.js';
+import { useEffect } from 'react';
 
 function App() {
+
+  // useEffect(() => {
+
+  // },[user,basket])
+
   return (
 
 
